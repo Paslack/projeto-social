@@ -29,17 +29,36 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     background: url(../imagens/mobile-1976104_1280.png);
-    background-size: 600px 600px;
+    background-size: 700px 700px;
     background-repeat: no-repeat;
 }
 
-iframe#tela{
+iframe.tela{
     position: relative;
     top: 120px;
-    left: 180px;
-    width: 240px;
-    height: 360px;
+    left: 220px;
+    width: 260px;
+    height: 440px;
+}
+
+section#paginas{
+    text-align: right;
+}
+
+section#paginas img{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+section#paginas img:hover{
+    background-color: #e4e0e6;
+    border: 0,5px solid #e4e0e6;
+    transform: translate(-5px, -2px);
+    transition: transform 0.4s;
 }
